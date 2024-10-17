@@ -17,4 +17,5 @@
 ```sql
 Código SQL de resolución del ejercicio
 ```
+
 3. **Respuesta**
