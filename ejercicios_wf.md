@@ -270,7 +270,7 @@ order by row_number
 |24|FOLIG|Folies gourmandes|Martine Rancé|Assistant Sales Agent|
 
 - Obtener el ranking de los empleados más jóvenes () ranking, nombre y apellido del
-empleado, fecha de nacimiento)
+empleado, fecha de nacimiento
 
 ```sql
 select row_number () over (order by min(e.birth_date) desc) as ranking, e.first_name , e.last_name , e.birth_date 
